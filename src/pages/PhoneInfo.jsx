@@ -26,7 +26,7 @@ export default function PhoneInfo() {
       <h2>{infoItem.name}</h2>
       <img src={infoItem.img_url} height={180} alt="phone" />
       <div>Gpu:{infoItem.gpu} | Cpu: {infoItem.cpu}</div>
-      <div>Battery score: {infoItem.battery_score}</div>
+      <div>Battery rank: {infoItem.battery_score}</div>
       <button onClick={() => {
         nav(-1); // -1 כמו ללחוץ בק בדפדפן
       }} className='btn btn-dark mt-3'>Back to list</button>
